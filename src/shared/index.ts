@@ -1,4 +1,9 @@
 import { ROUTES } from './routes'
-import { Icon, Button, Checkbox } from './ui'
+import { http } from './api'
+import { delay } from './libs'
+import { Icon, Button, Checkbox, Input, Tag } from './ui'
 
-export { ROUTES, Icon, Button, Checkbox }
+export { ROUTES }
+export { http }
+export { delay }
+export { Icon, Button, Checkbox, Input, Tag }
